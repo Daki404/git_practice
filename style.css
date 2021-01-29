@@ -1,0 +1,12 @@
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: #008080
+}
+
+.top_line{
+  padding-top: 15px;
+  border-top: double;
+  border-width: thick;
+  border-color: #008080
+}
