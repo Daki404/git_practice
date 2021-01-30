@@ -27,8 +27,31 @@ ul{
 .grid{
   border: 5px solid #008080;
   display: grid;
-  grid-template-columns: 1fr 200px 200px 1fr;
+  grid-template-areas:
+                "bro bro bro bro"
+                "gu rank name da"
   align-items: center;
+}
+
+bro{
+  grid-area: bro;
+  background-color: brown;
+}
+
+rank{
+  grid-area: rank;
+}
+
+name{
+  grid-area: name;
+}
+
+gu{
+  grid-area: gu;
+}
+
+da{
+  grid-area: da;
 }
 
 .bkimg{
