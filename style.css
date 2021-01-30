@@ -30,12 +30,12 @@ ul{
   grid-template-areas:
                 "bro bro bro bro"
                 "gu rank name da"
-  align-items: center;
 }
 
 bro{
   grid-area: bro;
   background-color: brown;
+  padding-bottom: 20px;
 }
 
 rank{
