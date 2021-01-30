@@ -1,12 +1,43 @@
 h1{
   font-size: 50px;
   text-align: center;
-  color: #008080
+  color: #000000
 }
 
-.top_line{
-  padding-top: 15px;
-  border-top: double;
+img{
+  margin: auto;
+}
+
+ul{
+  list-style: none;
+  line-height: 250%;
+  font-weight: bold;
+  font-size: 20px;
+  display: table;
+  margin: auto;
+  padding-left: 0px;
+}
+.bot_line{
+  border-bottom: double;
+  padding-bottom: 15px;
   border-width: thick;
   border-color: #008080
+}
+
+.grid{
+  border: 5px solid #008080;
+  display: grid;
+  grid-template-columns: 1fr 200px 200px 1fr;
+  align-items: center;
+}
+
+.bkimg{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#left{
+  margin: initial;
+  float: left;
 }
