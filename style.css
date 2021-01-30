@@ -11,7 +11,6 @@ body{
 h1{
   font-size: 50px;
   text-align: center;
-  color: #000000
 }
 
 img{
@@ -26,58 +25,56 @@ ul{
   margin: auto;
   padding-left: 0px;
 }
-.bot_line{
-  border-bottom: double;
-  padding-bottom: 15px;
-  border-width: thick;
-  border-color: #008080
-}
 
 .grid{
-  border: 5px solid #008080;
+  border: 5px solid #493323;
   display: grid;
+  border-left: 0px;
+  border-right: 0px;
   grid-template-areas:
                 "bro bro bro bro"
                 "gu rank name da"
 }
 
+.mid{
+  margin: auto;
+}
 bro{
   grid-area: bro;
   background-color: #91684a;
   padding-bottom: 40px;
 }
-
 rank{
   grid-area: rank;
   margin: auto;
 }
-
 name{
   grid-area: name;
   margin: auto;
 }
-
 gu{
   grid-area: gu;
   margin: auto;
 }
-
 da{
   grid-area: da;
   margin: auto;
 }
 
-p{
-  font-family:
+#main{
+  grid-template-areas:
+              "blank blank"
+              "list contents"
 }
 
-.bkimg{
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+blank{
+  grid-area: blank;
+  padding-bottom: 10px;
+  background-color: #91684a;
 }
-
-#left{
-  margin: initial;
-  float: left;
+list{
+  grid-area: list;
+}
+contents{
+  grid-area: contents;
 }
