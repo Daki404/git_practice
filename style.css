@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+head{
+    font-family: 'Noto Sans KR';
+}
+
+body{
+    font-family: 'Noto Sans KR';
+}
+
 h1{
   font-size: 50px;
   text-align: center;
@@ -11,7 +21,6 @@ img{
 ul{
   list-style: none;
   line-height: 250%;
-  font-weight: bold;
   font-size: 20px;
   display: table;
   margin: auto;
@@ -34,24 +43,32 @@ ul{
 
 bro{
   grid-area: bro;
-  background-color: brown;
-  padding-bottom: 20px;
+  background-color: #91684a;
+  padding-bottom: 40px;
 }
 
 rank{
   grid-area: rank;
+  margin: auto;
 }
 
 name{
   grid-area: name;
+  margin: auto;
 }
 
 gu{
   grid-area: gu;
+  margin: auto;
 }
 
 da{
   grid-area: da;
+  margin: auto;
+}
+
+p{
+  font-family:
 }
 
 .bkimg{
