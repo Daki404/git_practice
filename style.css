@@ -13,6 +13,12 @@ h1{
   text-align: center;
 }
 
+h2{
+    margin-bottom: 0px;
+    align-items: center;
+    letter-spacing: 15px;
+}
+
 img{
   margin: auto;
 }
@@ -26,22 +32,24 @@ ul{
   padding-left: 0px;
 }
 
+li{
+  border-bottom: 1.5px solid #222831;
+}
+
+
 .grid{
-  border: 5px solid #493323;
+  border: 5px solid #222831;
   display: grid;
   border-left: 0px;
   border-right: 0px;
   grid-template-areas:
                 "bro bro bro bro"
-                "gu rank name da"
+                "gu rank name da";
 }
 
-.mid{
-  margin: auto;
-}
 bro{
   grid-area: bro;
-  background-color: #91684a;
+  background-color: #30475e;
   padding-bottom: 40px;
 }
 rank{
@@ -62,19 +70,36 @@ da{
 }
 
 #main{
+  background-color: #e8e8e8;
   grid-template-areas:
               "blank blank"
-              "list contents"
+              "liname conname"
+              "list contents";
+grid-template-columns: 250px 1fr;
 }
 
 blank{
   grid-area: blank;
   padding-bottom: 10px;
-  background-color: #91684a;
+  background-color: #f05454;
+}
+liname{
+  grid-area: liname;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+conname{
+  grid-area: conname;
+  padding-bottom: 10px;
 }
 list{
+  padding-top: 10px;
   grid-area: list;
+  border-top: 3px solid gray;
+  border-right: 3px solid gray;
 }
 contents{
+  padding-top: 10px;
+  border-top: 3px solid gray;
   grid-area: contents;
 }
