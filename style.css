@@ -60,6 +60,35 @@ td{
                 "gu rank name da";
 }
 
+.gridmain{
+  margin: auto;
+  border: 5px solid #222831;
+  display: grid;
+  border-left: 0px;
+  border-right: 0px;
+  grid-template-areas:
+                ". . ."
+                ". . .";
+}
+
+.circle{
+  margin : 20px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: pink;
+  box-shadow: 0 0 16px #30475e;
+  text-align: center;
+}
+
+.bkimg{
+  filter: blur(1px);
+  background-image: url(http://image.yes24.com/goods/84803146/800x0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 bro{
   grid-area: bro;
   background-color: #30475e;
