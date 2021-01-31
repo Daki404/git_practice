@@ -10,10 +10,11 @@ body{
 
 h1{
   font-size: 50px;
-  text-align: center;
+  text-align: center
 }
 
 h2{
+  margin-top: 10px;
     margin-bottom: 0px;
     align-items: center;
     letter-spacing: 15px;
@@ -32,10 +33,21 @@ ul{
   padding-left: 0px;
 }
 
-li{
-  border-bottom: 1.5px solid #222831;
+table{
+  padding: 10px;
+  width: 100%;
+  border-collapse: collapse;
 }
 
+th, td{
+  border-bottom: 1px solid #222831;
+  padding: 5px;
+  text-align: left;
+}
+
+td{
+  color: #30475e;
+}
 
 .grid{
   border: 5px solid #222831;
@@ -93,13 +105,11 @@ conname{
   padding-bottom: 10px;
 }
 list{
-  padding-top: 10px;
   grid-area: list;
   border-top: 3px solid gray;
   border-right: 3px solid gray;
 }
 contents{
-  padding-top: 10px;
   border-top: 3px solid gray;
   grid-area: contents;
 }
